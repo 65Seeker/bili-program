@@ -1,0 +1,46 @@
+.title{
+    display: flex;
+    align-items:center;
+    background: #fff;
+    padding:10rpx;
+}
+.logo{
+    flex:7;
+    margin-left:5rpx; 
+}
+.logo image{
+  width:140rpx;
+  height:60rpx;
+}
+.user_icon image{
+  width:60rpx;
+  height:60rpx;
+}
+.search_icon image{
+  width: 60rpx;
+  height:60rpx
+}
+.search_icon{
+    flex:1;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.user_icon{
+    flex:2;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.download_app{
+    flex:3;
+    background-color: #f45a8d;
+    color: #fff;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 30rpx;
+    border-radius:10rpx;
+    padding: 10rpx;
+    margin-right: 10rpx;
+}

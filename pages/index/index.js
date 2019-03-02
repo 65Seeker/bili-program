@@ -50,7 +50,7 @@ Page({
     wx.request({
       url:"https://easy-mock.com/mock/5c1dfd98e8bfa547414a5278/bili/videosList",
       success(res){
-        console.log(res);
+        // console.log(res);
         if(res.data.code===0){
           that.setData({
             videosList:res.data.data.videosList

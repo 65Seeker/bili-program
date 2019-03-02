@@ -21,7 +21,7 @@
     </view>
     <!-- 视频区 -->
     <view class="video-wrap">
-        <navigator class="video-item" wx:for="{{videosList}}" wx:key="{{index}}">
+        <navigator url="../detail/detail?id={{item.id}}" class="video-item" wx:for="{{videosList}}" wx:key="{{index}}">
             <view class="video-img">
                 <image mode="widthFix" src="{{item.imgSrc}}"></image>
                 <view class='video-info'>
